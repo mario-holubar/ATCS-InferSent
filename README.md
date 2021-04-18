@@ -11,7 +11,7 @@ torchtext==0.7.0
 ```
 Additional requirements:  
 [SentEval](https://github.com/facebookresearch/SentEval) (Clone SentEval-master into this project directory)
-SNLI dataset + GloVe word embeddings should be downloaded automatically
+SNLI dataset, GloVe word embeddings and spaCy tokenizer should be downloaded automatically.
 
 ## How to use
 ### Training a model

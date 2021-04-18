@@ -27,3 +27,10 @@ python eval.py encoder
 ```
 By default, this loads the latest model of the given `encoder`. Use `--version` to load a different checkpoint.  
 The model is evaluated on a suite of SentEval tasks, as well as the test set of SNLI.
+
+## Code structure
+`data.py` loads the SNLI dataset and defines routines for processing it and building / loading the vocabulary.  
+`models.py` defines the four encoder architectures as well as the classifier and its training procedure.  
+`train.py` is used to process command line arguments and train the model on the SNLI task.  
+`eval.py` is used to load a trained model and evaluate its performance on SentEval and SNLI.  
+`results.ipynb` can be used to interact with the models and investigate their performance qualitatively.  

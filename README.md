@@ -10,7 +10,7 @@ spacy==2.3.5
 torchtext==0.7.0
 ```
 Additional requirements:  
-[SentEval](https://github.com/facebookresearch/SentEval) (Clone SentEval-master into this project directory)
+[SentEval](https://github.com/facebookresearch/SentEval) (Clone SentEval-master into this project directory)  
 SNLI dataset, GloVe word embeddings and spaCy tokenizer should be downloaded automatically.
 
 ## How to use
@@ -34,3 +34,6 @@ The model is evaluated on a suite of SentEval tasks, as well as the test set of 
 `train.py` is used to process command line arguments and train the model on the SNLI task.  
 `eval.py` is used to load a trained model and evaluate its performance on SentEval and SNLI.  
 `results.ipynb` can be used to interact with the models and investigate their performance qualitatively.  
+
+## Pretrained models + logs
+Checkpoints for each model and tensorboard logs are available on https://github.com/mario-holubar/ATCS-InferSent.

@@ -2,5 +2,4 @@
 __pycache__
 SentEval-master/
 data/
-logs/
 vocab.pkl

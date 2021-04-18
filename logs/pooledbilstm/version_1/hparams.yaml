@@ -1,0 +1,6 @@
+args: !!python/object:argparse.Namespace
+  debug: false
+  encoder: pooledbilstm
+  max_epochs: 20
+  progress_bar: 0
+  sentence_dim: 1024

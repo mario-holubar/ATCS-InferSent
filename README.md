@@ -37,3 +37,4 @@ The model is evaluated on a suite of SentEval tasks, as well as the test set of 
 
 ## Pretrained models + logs
 Checkpoints for each model and tensorboard logs are available on https://github.com/mario-holubar/ATCS-InferSent.
+All models present here use an embedding dimensionality of 1024.

@@ -1,5 +1,5 @@
 # ATCS - InferSent
-Replicating some results from Conneau et al. (https://arxiv.org/abs/1705.02364) for UvA's course on Advanced Topics in Computational Semantics 2021.
+Replicating the sentence encoder from [Conneau et al.](https://arxiv.org/abs/1705.02364) for UvA's course on Advanced Topics in Computational Semantics 2021.
 
 ## Requirements
 Package requirements:
